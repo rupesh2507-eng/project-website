@@ -1,0 +1,322 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 135vh;
+    width: 300px;
+    background-color: #2b303a;
+    color: white;
+    position: absolute;
+}
+.logo {
+    height: 80px;
+    width: 150px;
+}
+.logo-main {
+    background-image: url("mmu-logo.png");
+    background-size: cover;
+    background-color: white;
+    
+    height: 100%;
+    width: 100%;
+}
+.lists {
+    width: 300px;
+}
+.lists a {
+    color: #aaabae;
+}
+.border {
+    border:0.1px solid transparent;
+}
+.border:hover {
+    border: 0.1px solid white;
+    color: white;
+}
+.box {
+    display: flex;
+    margin: 5px;
+    padding: 10px; 
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    justify-content:left;
+    padding-left: 55px;
+    transition: transform 0.3s ease;
+}
+.animation{
+    transition: transform 0.3s ease;
+}
+.animation:hover {
+    transform: translateY(-3px);
+}
+
+.dashboard {
+    margin-left: 300px;
+    padding: 20px 20px 0px 20px;
+}
+.navbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    border-bottom: 0.1px solid #949494;
+}
+.navbar a {
+    color: #373e4a;
+    text-decoration: none;
+}
+.nav-log i {
+    color: #373e4a;
+}
+.log i {
+    color: #373e4a;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 17px 0px 10px 0px;
+    color: #373e4a;
+}
+.info i {
+    margin-right: 10px;
+    color: #373e4a;
+}
+
+.st-dash {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    background: linear-gradient(90deg,#2c5d96,#3f73b3);
+    color: white;
+    padding: 14px 25px 14px 25px;
+    border-radius: 3px;
+}
+.student {
+    display: flex;
+    width: 135px;
+    height: 65px;
+    justify-content: center;
+    margin: 20px 10px 10px 15px;
+}
+.student i {
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.micro a {
+    color: white;
+    background-color: #cc2424;
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.yellow a {
+    color: white;
+    background-color: #f2994b;
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.details-container {
+    display: flex;
+}
+.amount {
+    height: 100px;
+    width: 240px;
+    background-color: rgba(255, 0, 0, 0.6);
+    color: white;
+    margin: 20px 25px 30px 0px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.amount h3 {
+    font-size: 1.5rem;
+    margin: 3px;
+}
+.fee {
+    height: 15px;
+    width: 100px;
+    background-color: #21a9e1;
+    padding: 6px 12px 6px 12px;
+    margin: 10x 3px 3px 3px;
+    border-radius: 5px;
+}
+.fee a {
+    color: white;
+    text-decoration: none;
+}
+.amount p {
+    margin: 3px;
+    padding: 6px 12px 6px 0px;
+    font-size: 0.85rem;
+}
+
+.hostel {
+    height: 100px;
+    width: 240px;
+    background-color: #ba79cb;
+    margin: 20px 25px 30px 0px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.hostel a {
+    color: white;
+    text-decoration: none;
+}
+.hostel h3 {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.hostel b {
+    padding: 5px;
+    font-size: 0.83rem;
+}
+.hostel p {
+    padding: 5px;
+    font-size: 0.85rem;
+}
+
+.subject {
+    height: 100px;
+    width: 240px;
+    background-color: #00a65a;
+    margin: 20px 25px 30px 0px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.subject a {
+    color: white;
+    text-decoration: none;
+}
+.subject h3 {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.subject b {
+    padding: 5px;
+    font-size: 0.83rem;
+}
+.subject p {
+    padding: 5px;
+    font-size: 0.85rem;
+}
+
+.request {
+    height: 115px;
+    width: 240px;
+    background-color: #ffa812;
+    margin: 20px 25px 30px 0px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.request a {
+    color: white;
+    text-decoration: none;
+}
+.request h3 {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.request b {
+    padding: 5px 0px 5px 0px;
+    font-size: 0.83rem;
+}
+.request p {
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+.bus {
+    height: 100px;
+    width: 240px;
+    background-color: #00c0ef;
+    margin: 20px 25px 30px 0px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.bus a {
+    color: white;
+    text-decoration: none;
+}
+.bus h3 {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.bus b {
+    padding: 5px;
+    font-size: 0.83rem;
+}
+.bus p {
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+.attandance {
+    height: 100px;
+    width: 240px;
+    background-color: #ec3b83;
+    margin: 20px 25px 30px 0px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.attandance a {
+    color: white;
+    text-decoration: none;
+}
+.attandance h3 {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.attandance b {
+    padding: 5px;
+    font-size: 0.83rem;
+}
+.attandance p {
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+main {
+    margin-left: 300px;
+    padding: 0px 20px 20px 20px;
+    border-bottom: 0.1px solid #949494;
+}
+.back-img {
+    height: 470px;
+    width: 1200;
+}
+.hero-img {
+    background-image: url("hero-mmu.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-left: 300px;
+    padding: 0px 20px 20px 20px;
+}
+.foot {
+    display: flex;
+    margin-top: 10px;
+    color: #949494;
+}
+.foot p {
+    margin-right: 5px;
+}
